@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin-right: 10px;
+}
+#heading{text-align: center;}
+#container{
+    height: 600px;
+    width: 600px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid black;
+    background-color: indianred;
+
+    display: flex;
+}
+#box1{background-color: aqua;
+    order: 2;
+}
+#box2{background-color: peru;
+    order: 1;
+}
+#box3{background-color: yellow;
+    order: 4;
+}
+#box4{background-color: orangered;
+    order: 3;
+}
